@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const previewContainer = document.getElementById('previewImages');
   const form = document.getElementById('itemForm');
   const result = document.getElementById('result');
-  const BACKEND_API = 'http://127.0.0.1:8000';
+  const BACKEND_API = 'http://81.177.136.42:8000';
 
   const submitBtn = form.querySelector('button[type="submit"]');
 

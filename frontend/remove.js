@@ -1,4 +1,4 @@
-const BACKEND_API = 'http://127.0.0.1:8000';
+const BACKEND_API = 'http://81.177.136.42:8000';
 const itemsContainer = document.getElementById('itemsContainer');
 const result = document.getElementById('result');
 
