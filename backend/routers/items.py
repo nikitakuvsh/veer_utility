@@ -47,3 +47,9 @@ def delete_item(item_id: int, db: Session = Depends(get_db)):
 
     crud.delete_item(db, item_id)
     return None
+
+@router.get("/item/{item_id}")
+def get_item_by_id(item_id: int, db: Session = Depends(get_db)):
+    item = crud.get_item(db, item_id)
+    if not item: raise HTTPException(status_code=404, detail="Item not found")
+    return item
