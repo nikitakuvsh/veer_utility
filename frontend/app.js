@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const previewContainer = document.getElementById('previewImages');
   const form = document.getElementById('itemForm');
   const result = document.getElementById('result');
-  const BACKEND_API = 'http://81.177.136.42:8000';
+  // const BACKEND_API = 'http://81.177.136.42:8000';
+  const BACKEND_API = 'https://veerutility.ru'
 
   const submitBtn = form.querySelector('button[type="submit"]');
 

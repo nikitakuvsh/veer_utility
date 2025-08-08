@@ -1,4 +1,5 @@
-const BACKEND_API = 'http://81.177.136.42:8000';
+// const BACKEND_API = 'http://81.177.136.42:8000';
+const BACKEND_API = 'https://veerutility.ru';
 const itemsContainer = document.getElementById('itemsContainer');
 const result = document.getElementById('result');
 
